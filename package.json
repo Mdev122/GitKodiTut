@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Mdev122/GitKodiTut/issues"
   },
-  "homepage": "https://github.com/Mdev122/GitKodiTut#readme"
+  "homepage": "https://github.com/Mdev122/GitKodiTut#readme",
+  "devDependencies": {
+    "mkdirp": "^3.0.1"
+  }
 }
