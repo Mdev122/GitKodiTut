@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "task-runner",
+=======
+  "name": "kodigittask",
+>>>>>>> 51a7dc48fc181d693230124003c8adba5e6c364a
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
      "build:js": "echo 'Budowanie JS...'",
     "build:css": "echo 'Budowanie CSS...'",
     "build:assets": "echo 'Kopiowanie plików...'",
@@ -19,11 +24,19 @@
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "test": "npm run test:html",
     "test:html": "html-validate *.html"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdev122/GitKodiTut.git"
+>>>>>>> 51a7dc48fc181d693230124003c8adba5e6c364a
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+<<<<<<< HEAD
   "dependencies": {
     "npm-run-all": "^4.1.5",
     "sass": "^1.99.0"
@@ -33,5 +46,13 @@
     "html-validate": "^11.2.0",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1"
+=======
+  "bugs": {
+    "url": "https://github.com/Mdev122/GitKodiTut/issues"
+  },
+  "homepage": "https://github.com/Mdev122/GitKodiTut#readme",
+  "devDependencies": {
+    "mkdirp": "^3.0.1"
+>>>>>>> 51a7dc48fc181d693230124003c8adba5e6c364a
   }
 }
