@@ -1,0 +1,41 @@
+
+ <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Twoja Strona</title>
+    <link rel="stylesheet" href="/css/styl.css">
+</head>
+<body>
+
+    <section class="kontakt-sekcja">
+        <h2 style="color: white;">Napisz do nas</h2>
+     <form
+  action="https://formspree.io/f/xpqnogrp"
+  method="POST"
+>
+            <div class="form-grupa">
+                <label style="color: orangered;" for="imie">Twoje Imię:</label>
+                <input type="text" id="imie" name="imie" required placeholder="Jan Kowalski">
+            </div>
+
+            <div class="form-grupa">
+                <label style="color: orangered;" for="email">Your email:</label>
+    
+    <input type="email" name="email">
+  </label>
+  <label>
+                
+
+            <div class="form-grupa">
+                <label style="color: orangered;" for="wiadomosc">Wiadomość:</label>
+                <textarea id="wiadomosc" name="wiadomosc" rows="5" required placeholder="Wpisz swoją wiadomość tutaj..."></textarea>
+            </div>
+
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+    </section>
+
+</body>
+</html>
